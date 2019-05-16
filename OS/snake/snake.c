@@ -3,6 +3,7 @@
 #include <sys/time.h>
 #include <curses.h>//額外的UI程式庫
 #include <stdlib.h>
+#include <unistd.h> // 解决usleep报错问题
  
 #define MAX_X 55   //寬度
 #define MAX_Y 25  //長度
